@@ -19,5 +19,5 @@ console.log('HelloWorld')
 
 ---  
 
-![image](./name.jpg)
+![image](/name.jpg)
 
