@@ -30,7 +30,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build -- --base /slidev/
+        run: npm run build -- --base /slides/test
 
       - uses: actions/configure-pages@v4
 
