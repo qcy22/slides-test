@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "build": "slidev build",
-    "dev": "slidev --open",
+    "dev": "slidev --open slides.md",
+    "dev-gaokao": "slidev --open gaokao.md",
     "export": "slidev export"
   },
   "dependencies": {
@@ -15,6 +16,6 @@
     "vue": "^3.4.33"
   },
   "devDependencies": {
-    "playwright-chromium": "^1.45.2"
+    "playwright-chromium": "^1.52.0"
   }
 }

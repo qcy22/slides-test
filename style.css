@@ -83,3 +83,18 @@ h6 {
     width: 1.6em;
     border-radius: 50%;
 }
+
+
+.slidev-layout::after {
+    content: '';
+    background-image: url('/name.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: -50px;
+    right: -30px;
+    width: 200px;
+    height: 200px;
+    /* 调整大小 */
+    z-index: 10;
+}
